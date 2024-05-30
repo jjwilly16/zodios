@@ -81,7 +81,7 @@ router.use(userMiddleware);
 ```ts
 import { zodiosApp, zodiosRouter } from "@zodios/express";
 
-const app = zodiosApp(); // just an axpess app with type annotations
+const app = zodiosApp(); // just an express app with type annotations
 const userRouter = zodiosRouter(userApi); // just an express router with type annotations and validation middlewares
 const adminRouter = zodiosRouter(adminApi); // just an express router with type annotations and validation middlewares
 
